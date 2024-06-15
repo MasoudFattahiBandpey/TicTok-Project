@@ -41,7 +41,7 @@ from xgboost import XGBClassifier
 3. **Split the Data**: Split the data into training, validation, and test sets.
 4. **Build Models**: Train Random Forest and XGBoost models, and select the best model based on performance metrics.
 5. **Evaluate Models**: Evaluate the models using classification reports and confusion matrices.
-
+```
 ## Results
 
 - The Random Forest model achieved a high recall score, making it the preferred model.
