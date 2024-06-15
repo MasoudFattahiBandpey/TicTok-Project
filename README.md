@@ -34,6 +34,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
+```
 ## Usage
 
 1. **Load the Data**: Load the TikTok dataset into a Pandas DataFrame.
@@ -41,7 +42,7 @@ from xgboost import XGBClassifier
 3. **Split the Data**: Split the data into training, validation, and test sets.
 4. **Build Models**: Train Random Forest and XGBoost models, and select the best model based on performance metrics.
 5. **Evaluate Models**: Evaluate the models using classification reports and confusion matrices.
-```
+
 ## Results
 
 - The Random Forest model achieved a high recall score, making it the preferred model.
